@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F888E9332E7680C5004F69F7 /* ThemeKit in Frameworks */ = {isa = PBXBuildFile; productRef = F888E9322E7680C5004F69F7 /* ThemeKit */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		F888E9232E74EE0F004F69F7 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F888E9332E7680C5004F69F7 /* ThemeKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
+				F888E9322E7680C5004F69F7 /* ThemeKit */,
 			);
 			productName = Scrumdinger;
 			productReference = F888E9232E74EE0F004F69F7 /* Scrumdinger.app */;
@@ -78,14 +84,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2600;
 				TargetAttributes = {
 					F888E9222E74EE0F004F69F7 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = F888E91E2E74EE0F004F69F7 /* Build configuration list for PBXProject "Scrumdinger" */;
+			buildConfigurationList = F888E91E2E74EE0F004F69F7 /* Build configuration list for PBXProject "d" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -94,6 +100,9 @@
 			);
 			mainGroup = F888E91A2E74EE0F004F69F7;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				F85FE4642E7A0630007D6904 /* XCLocalSwiftPackageReference "ThemeKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = F888E9242E74EE0F004F69F7 /* Products */;
 			projectDirPath = "";
@@ -184,6 +193,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -241,6 +251,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -305,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F888E91E2E74EE0F004F69F7 /* Build configuration list for PBXProject "Scrumdinger" */ = {
+		F888E91E2E74EE0F004F69F7 /* Build configuration list for PBXProject "d" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F888E92C2E74EE11004F69F7 /* Debug */,
@@ -324,6 +335,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		F85FE4642E7A0630007D6904 /* XCLocalSwiftPackageReference "ThemeKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ThemeKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F888E9322E7680C5004F69F7 /* ThemeKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ThemeKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F888E91B2E74EE0F004F69F7 /* Project object */;
 }
